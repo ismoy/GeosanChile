@@ -67,7 +67,7 @@ const Dashboard = ({ setSelectedPage }: Props) => {
       // Verificar que form.current no es null
       if(validate()){
          if (form.current) {
-        emailjs.sendForm('service_owysqlz', 'template_j9fn7os', form.current, 'wJeJL6ZZJSNqCDVG4')
+        emailjs.sendForm('service_66rqisr', 'template_j9fn7os', form.current, 'wJeJL6ZZJSNqCDVG4')
           .then((result) => {
             console.log('Email successfully sent!', result.text);
             setIsSuccess(true);
