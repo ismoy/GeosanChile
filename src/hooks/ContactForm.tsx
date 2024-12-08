@@ -70,7 +70,7 @@ export const ContactForm =({ setSelectedPage }: Props) => {
       // Verificar que form.current no es null
       if(validate()){
          if (form.current) {
-        emailjs.sendForm('service_66rqisr', 'template_j9fn7os', form.current, 'wJeJL6ZZJSNqCDVG4')
+        emailjs.sendForm('service_3uaebzw', 'template_p8ef68k', form.current, 'wJeJL6ZZJSNqCDVG4')
           .then((result) => {
             console.log('Email successfully sent!', result.text);
             setIsSuccess(true);
