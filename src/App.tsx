@@ -1,12 +1,15 @@
+import Navbar from "./component/navBar/NavBar";
+import NavigationRoute from "./routes/NavigationRoute";
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import Navegation from "./component/Navegation";
 
 
-const Template = () => {
-  return (
-    <div className="index">
-     <Navegation />
-    </div>
-  );
-};
-export default Template;
+function App(){
+  return(
+    <Router>
+      <Navbar/>
+      <NavigationRoute />
+    </Router>
+  )
+}
+export default App
